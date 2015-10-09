@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">FreeScreens</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_lion">LionActivity</string>
+    <string name="title_activity_flamingo">FlamingoActivity</string>
+
+    <string-array name="facts">
+        <item>Царство: 	Животные</item>
+        <item>Тип: 	Хордовые</item>
+        <item>Класс: 	Птицы</item>
+        <item>Семейство: 	Фламинговые</item>
+        <item>Окраска: От белого до красного</item>
+        <item>Клюв: Выгнутый вниз</item>
+        <item>Обитают:В Африке,Азии и Центральной Америке</item>
+        <item>Питаются:  ракообразных, личинок насекомых, червей, моллюсков и водорослей</item>
+        <item>Враги: Лисы,Волки и шакалы</item>
+        <item>Вес: 3.5 кг</item>
+        <item>Длина: 80-150 см</item>
+        <item>размах крыльев: 149-165 см</item>
+    </string-array>
+    <string name="title_activity_sound">SoundActivity</string>
+</resources>

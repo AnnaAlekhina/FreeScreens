@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="100" >
+
+        <TextView
+            android:text="ZOO"
+            android:gravity="center_horizontal"
+            android:background="#25aa7a"
+            android:textSize="15pt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <Button
+            android:id="@+id/LionButton"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="Lion"
+            android:layout_weight="50"
+            android:background="@drawable/gradient"
+            android:onClick="onClickLion">
+        </Button>
+
+        <Button
+            android:id="@+id/FlamingoButton"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="Flamingo"
+            android:layout_weight="50"
+            android:background="@drawable/gradient2"
+            android:onClick="onClickFlamingo">
+        </Button>
+
+        <Button
+            android:id="@+id/SecretButton"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="Secret"
+            android:layout_weight="50"
+            android:background="@drawable/soundgradient"
+            android:onClick="onClickSecret">
+        </Button>
+
+    </LinearLayout>
+
+

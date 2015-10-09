@@ -1,0 +1,30 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/flamgradient">
+
+    <TextView
+        android:id="@+id/tvTop"
+        android:gravity="top|center_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="20dip"
+        android:textColor="#FF1493"
+        android:textStyle="bold"
+ />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+        <ListView
+            android:id="@+id/fl_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+</FrameLayout>

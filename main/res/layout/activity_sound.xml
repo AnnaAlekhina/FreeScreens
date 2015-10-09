@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gridLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:columnCount="9"
+    android:rowCount="4"
+    android:background="@drawable/soundgradient"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/imageButtonDog"
+        android:onClick="onClickDog"
+        android:background="@android:color/transparent"
+        android:src="@drawable/dog"
+        android:layout_row="0"
+        android:layout_column="0" />
+
+    <ImageButton
+        android:id="@+id/imageButtonCat"
+        android:onClick="onClickCat"
+        android:background="@android:color/transparent"
+        android:src="@drawable/cat1"
+        android:layout_row="1"
+        android:layout_column="0" />
+
+    <ImageButton
+        android:id="@+id/imageButtonDuck"
+        android:onClick="onClickDuck"
+        android:background="@android:color/transparent"
+        android:src="@drawable/duck"
+        android:layout_row="1"
+        android:layout_column="8" />
+
+    <ImageButton
+        android:id="@+id/imageButtonSheep"
+        android:onClick="onClickSheep"
+        android:background="@android:color/transparent"
+        android:src="@drawable/sheep"
+        android:layout_row="0"
+        android:layout_column="8" />
+
+    <ImageButton
+        android:id="@+id/imageButtonCow"
+        android:onClick="onClickCow"
+        android:background="@android:color/transparent"
+        android:src="@drawable/cow"
+        android:layout_row="2"
+        android:layout_column="8" />
+
+    <TextView
+        android:id="@+id/textViewCat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#CD5C5C"
+        android:layout_row="1"
+        android:layout_column="2" />
+
+    <TextView
+        android:id="@+id/textViewDuck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#CD5C5C"
+        android:layout_row="1"
+        android:layout_column="7" />
+
+
+    <ImageButton
+        android:id="@+id/imageButtonChicken"
+        android:onClick="onClickChiken"
+        android:background="@android:color/transparent"
+        android:src="@drawable/chicken"
+        android:layout_row="2"
+        android:layout_column="0" />
+
+    <TextView
+        android:id="@+id/textViewChicken"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="2"
+        android:textColor="#CD5C5C"
+        />
+
+    <TextView
+        android:id="@+id/textViewDog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="2"
+        android:textColor="#CD5C5C"
+        />
+
+    <TextView
+        android:id="@+id/textViewSheep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#CD5C5C"
+        android:layout_row="0"
+        android:layout_column="7" />
+
+    <TextView
+        android:id="@+id/textViewCow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#CD5C5C"
+        android:layout_row="2"
+        android:layout_column="7" />
+
+</GridLayout>

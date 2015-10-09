@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/liongradient">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/NameButton"
+        android:hint="Введите имя льва"
+        />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText"
+        android:layout_below="@+id/editText"
+        android:layout_marginTop="42dp"
+        android:text="Large Text"
+      />
+
+    <Button
+        android:id="@+id/NameButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="Нажми тихонько!"
+        android:background="@drawable/buttongradient"
+        android:onClick="onClick"
+        />
+    <ImageView
+        android:id="@+id/iconLion"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/cat"
+        android:layout_below="@id/editText"
+        android:layout_above="@+id/monitored_switch" />
+
+    <Switch
+        android:id="@+id/monitored_switch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="Коснись меня ..."
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+
+        />
+
+
+</RelativeLayout>
